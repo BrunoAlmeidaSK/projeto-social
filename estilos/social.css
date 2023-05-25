@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Escode a barra de rolagem */
+::-webkit-scrollbar{ 
+    width: 0px;
+    height: 0px;
+}
+
+img{
+    width: 100vw;
+    
+}
+
+a{
+    display: block;
+    background-color: brown;
+    color: white;
+    margin: -2px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgba(211, 4, 4, 0.925);
+}
